@@ -29,8 +29,10 @@
                 <h1>NO.1 COFFEE BRAND IN ASIA</h1>
                 <p>KAVORA : Nyalakan Harimu, Teguk Inspirasimu</p>
                 <p>Hidup bergerak cepat, dan harimu butuh dorongan yang tepat. KAVORA hadir untuk<br> menemani setiap langkah kreatif dan ambisiusmu dari pagi yang sibuk hingga malam penuh ide.</p>
-                <a href="" class="button-1">Produk Kami</a>
-                <a href="" class="button-1">Lokasi</a>
+                <div class="hero-button">
+                    <a href="" class="button-1">Produk Kami</a>
+                    <a href="" class="button-1">Lokasi</a>
+                </div>
             </div>
             <img src="gambar/Kavora1 4per3.png" alt="GAMBAR BRAND" width="700" height="450">
         </div>
@@ -42,7 +44,7 @@
             <h1 class="text-1">ABOUT KAVORA</h1>
             <img src="gambar/Kavora2.png" alt="gambar" width="1120" height="400" class="rounded">
             <div class="about-text flex">
-                <h2>At Kavora, we believe great coffee is more than just a daily ritual. It's a moment to slow down, take a breath, and enjoy the little things.</h2>
+                <h2 class="about-text">At Kavora, we believe great coffee is more than just a daily ritual. It's a moment to slow down, take a breath, and enjoy the little things.</h2>
                 <p class="justify-text">Inspired by nature and crafted with care, we bring together quality coffee beans, thoughtful brewing, and a passion for creating meaningful moments in every cup.
                     Whether it's the start of a busy morning or a quiet afternoon, Kavora is here to make your everyday coffee feel a little more special.
                     Rooted in nature. Brewed with purpose. Made for you.</p>
@@ -89,6 +91,27 @@
     </div>
 
     <div class="footer-kelompok7">
+        <div class="footer-container font-1">
+            <h1 class="footer-brand">KAVORA</h1>
+            <div class="flex footer-grub">
+                <div class="grub-menu">
+                    <a href="" class="footer-menu">About KAVORA</a>
+                    <a href="" class="footer-menu">Careers</a>
+                    <a href="" class="footer-menu">Customer Care</a>
+                    <a href="" class="footer-menu">Customer Care</a>
+                    <a href="" class="footer-menu">Customer Care</a>
+                </div>
+                <div class="footer-form">
+                    <p class="footer-text">Dapatkan kabar terbaru dari KAVORA</p>
+                    <div class="flex">
+                        <input type="email" placeholder="Your email here">
+                        <button>Subscribe</button>
+                    </div>
+                </div>
+            </div>
+                <hr class="line">
+                <p>© 2026 KAVORA. All rights reserved.</p>
+        </div>
     </div>
 </body>
 </html>
