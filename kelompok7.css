@@ -118,6 +118,66 @@ margin-left: 10px;
     font-family: sans-serif;
 }
 
+.card-container{
+    justify-content: center;
+    gap: 25px;
+}
+
+.card{
+    justify-content: center;
+    background-color: #405039;
+    /* margin: 10px; */
+    padding: 10px;
+    color: #D9E0D5;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.card img{
+    object-fit: cover;
+        width: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+/* .card h1{
+} */
+
+/* .produk-form{
+
+} */
+
+.produk-form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 5px;
+    background-color: #405039;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+
+.produk-form button {
+    padding: 12px;
+    margin-bottom: 5px;
+    background-color: #405039;
+    color: #FFFFFF;
+    border: 1px solid #FFFFFF;
+    outline: none;
+    box-sizing: border-box;
+    border-radius: 0;
+}
+
+.produk-form input::placeholder {
+    color: #D9E0D5;
+}
+
+/* .produk-form input:focus {
+    border-color: #FFFFFF;
+    outline: none;
+} */
+
 .text-didalam {
     position: absolute;
     top: 50%;
@@ -173,7 +233,7 @@ justify-content: space-between  ;
 }
 
 .footer-form input {
-    width: 100%;
+    width: 200px;
     padding: 12px;
     background-color: #405039;
     color: #FFFFFF;
