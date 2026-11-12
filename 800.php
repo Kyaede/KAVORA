@@ -7,7 +7,7 @@ $STOK = '';
 $DESKRIPSI = '';
 $KATEGORI = '';
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $SEARCH = htmlspecialchars(trim($_POST['search800'] ?? ''));
+    $SEARCH = trim($_POST['search800'] ?? '');
     $KODE = htmlspecialchars($_POST['kode800'] ?? '');
     $NAMA = htmlspecialchars(trim($_POST['nama800'] ?? ''));
     $HARGA = htmlspecialchars($_POST['harga800'] ?? '');
