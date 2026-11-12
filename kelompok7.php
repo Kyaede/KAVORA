@@ -17,7 +17,7 @@ $halaman = $_GET['page'] ?? 'home';
 </head>
 
 <body>
-    <div class="nav-kelompok7 color-1 nav-kelompok7-sm">
+    <div class=" nav-kelompok7 color-1 nav-kelompok7-sm">
         <!-- bagian nizhar -->
         <div class="logo">
             <h2>KAVORA</h2>
@@ -97,50 +97,61 @@ $halaman = $_GET['page'] ?? 'home';
         <div class="landing-full-kelompok7 location" id="location">
             <!-- bagian nizhar -->
             <div class="container-kelompok7">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.2799546461424!2d110.80504429999999!3d-7.5444182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a141e6090dc49%3A0x5dd0894249c2f99c!2sJl.%20Kutai%20Utara%20No.1%2C%20Sumber%2C%20Kec.%20Banjarsari%2C%20Kota%20Surakarta%2C%20Jawa%20Tengah%2057138!5e0!3m2!1sid!2sid!4v1793201279073!5m2!1sid!2sid"
-                        width="1480" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
-                    <div class="text-didalam font-1 color-2">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3955.2799546461424!2d110.80504429999999!3d-7.5444182!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e7a141e6090dc49%3A0x5dd0894249c2f99c!2sJl.%20Kutai%20Utara%20No.1%2C%20Sumber%2C%20Kec.%20Banjarsari%2C%20Kota%20Surakarta%2C%20Jawa%20Tengah%2057138!5e0!3m2!1sid!2sid!4v1793201279073!5m2!1sid!2sid"
+                    width="1180" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                <div class="text-didalam font-1 color-2">
                     <h2>Lokasi Coffeeshop Kami</h2>
                     <p>Kami memiliki beberapa cabang yang tersebar di seluruh pulau di Indonesia, dan untuk cabang utama kami berada di kota Solo.</p>
                 </div>
             </div>
         </div>
 
-        <div class="landing-full-kelompok7">
-            <div class="container-sm uts color-1">
-                <h1 class="d-flex">PRODUK DARI KAVORA</h1>
-                <div class="row">
-                    <div class="col-12">
-                        produk terbaik yang dipilih langsung
+        <div class="uts color-1">
+            <div class="container-sm">
+                <div class="row g-4 align-items-center">
+                    <div class="col-12 col-lg-3">
+                        <h2>Pilihan Terbaik</h2>
+                        <p>
+                            Setiap biji kopi Kavora dipilih dengan teliti
+                            untuk menghadirkan kualitas dan cita rasa
+                            terbaik dalam setiap sajian.
+                        </p>
                     </div>
-                    <div class="row">
-                        <div class="col-3"></div>
-                        <div class="col-6"></div>
-                        <div class="col-3"></div>
+                    <div class="col-12 col-lg-6">
+                        <div class="row g-3">
+                            <div class="col-6 col-md-4 col-lg-3 gambar-kopi">
+                                <img src="gambar/bijiarabika.jpg"
+                                    class="img-fluid w-100" alt="Arabika">
+                                <h2>Arabika</h2>
+                                <p>Kopi dengan aroma harum dan cita rasa lembut.</p>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3 gambar-kopi">
+                                <img src="gambar/bijirobusta.jpg"
+                                    class="img-fluid w-100" alt="Robusta">
+                                <h2>Robusta</h2>
+                                <p>Kopi dengan rasa kuat dan karakter yang khas.</p>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3 gambar-kopi">
+                                <img src="gambar/bijiliberika.jpg"
+                                    class="img-fluid w-100" alt="Liberika">
+                                <h2>Liberika</h2>
+                                <p>Kopi dengan aroma unik dan cita rasa istimewa.</p>
+                            </div>
+                            <div class="col-6 col-md-4 col-lg-3 gambar-kopi">
+                                <img src="gambar/bijiarabika.jpg"
+                                    class="img-fluid w-100" alt="Excelsa">
+                                <h2>Excelsa</h2>
+                                <p>Kopi dengan perpaduan rasa asam dan fruity.</p>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div class="container-sm">
-                    <div class="row g-3">
-                        <div class="col-3 col-md-4 col-lg-3">
-                            <img src="gambar/bijiarabika.jpg" class="img-fluid w-100" alt="Gallery 1">
-                            <h2>Arabika</h2>
-                            <p>Kopi dengan aroma harum dan cita rasa lembut.</p>
-                        </div>
-                        <div class="col-3 col-md-4 col-lg-3">
-                            <img src="gambar/bijiarabika.jpg" class="img-fluid w-100" alt="Gallery 2">
-                            <h2>Arabika</h2>
-                            <p>Kopi dengan aroma harum dan cita rasa lembut.</p>
-                        </div>
-                        <div class="col-3 col-md-4 col-lg-3">
-                            <img src="gambar/bijiarabika.jpg" class="img-fluid w-100" alt="Gallery 3">
-                            <h2>Arabika</h2>
-                            <p>Kopi dengan aroma harum dan cita rasa lembut.</p>
-                        </div>
-                        <div class="col-3 col-md-4 col-lg-3">
-                            <img src="gambar/bijiarabika.jpg" class="img-fluid w-100 w-25-sm" alt="Gallery 4">
-                            <h2>Arabika</h2>
-                            <p>Kopi dengan aroma harum dan cita rasa lembut.</p>
-                        </div>
+                    <div class="col-12 col-lg-3">
+                        <h2>Kualitas Kavora</h2>
+                        <p>
+                            Kami mengutamakan kualitas biji kopi pilihan
+                            dengan proses pengolahan yang diperhatikan
+                            untuk menjaga aroma dan karakter alami kopi.
+                        </p>
                     </div>
                 </div>
             </div>
