@@ -9,9 +9,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 ?>
 
-<div class="landing-full-kelompok7 review" id="review">
+<div class="landing-full-kelompok7 review " id="review">
     <!-- bagian arafat -->
-    <div class="review-container flex">
+    <div class="review-container">
         <div class="review-list">
             <h2 class="color-2 font-1"> Feedbacks</h2>
             <div class="review-card">
