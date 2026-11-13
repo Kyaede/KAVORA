@@ -39,6 +39,9 @@ body {
     .footer-kelompok7-sm {
     display: none;
   }
+      .flex-arafat {
+    display: block;
+    }
 }
 
 
@@ -405,6 +408,7 @@ margin-left: 10px;
     gap: 80px;
     padding-left: 220px;
     padding-right: 220px;
+    display: flex;
 }
 
 .review-section {
@@ -463,11 +467,16 @@ margin-left: 10px;
     width: 85px;
     height: 85px;
 
-    border-radius: 50%;
+    border-radius: 0%;
     object-fit: cover;
 
 }
 
+@media (max-width: 350px) {
+    .review-card img {
+        border-radius: 50%;
+    }
+}
 
 /* REVIEW CONTENT */
 
@@ -491,6 +500,9 @@ margin-left: 10px;
 
 
 /* FORM REVIEW */
+.flex-arafat {
+    display: flex;
+}
 
 .review-form {
     width: 100%;
